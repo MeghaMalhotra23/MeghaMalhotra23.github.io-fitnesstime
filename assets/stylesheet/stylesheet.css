@@ -338,6 +338,9 @@ p{
 .member2{
     height: 404px; width: 270px;
 }
+.content-team{
+    width: 100%;
+}
 .member1{
     height: 459px; width: 308px;
 }
@@ -384,5 +387,34 @@ input,textarea{
     color: #ddd;
     opacity: 0.4;
     width: 90%;
+}
+@media(max-width:1200px){
+    .member3{
+        width: 300px;
+    }
+    .box div{
+        padding: 0px;
+    }
+}
+
+@media(max-width: 992px){
+    .member4{
+        width: 250px;
+        height: 400px;
+    }
+    .member1{
+        width:220px; 
+        height: 400px;
+    }
+    .member2{
+        width: 220px;
+        height: 390px;
+    }
+    .member3{
+        width: 250px;
+    }
+    .partner-wraper{
+        margin: 0px 150px;
+    }
 }
 
